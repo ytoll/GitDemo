@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+      <class name="Metodo.Metodo.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:Metodo.Metodo.AppiumTest@6536e911]" name="IOSApps" duration-ms="15" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeAppAndroid()[pri:0, instance:Metodo.Metodo.AppiumTest@6536e911]" name="NativeAppAndroid" duration-ms="0" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAppAndroid -->
+      </class> <!-- Metodo.Metodo.AppiumTest -->
+      <class name="Metodo.Metodo.SeleniumTest">
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:Metodo.Metodo.SeleniumTest@18eed359]" name="elementsUI" duration-ms="0" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- Metodo.Metodo.SeleniumTest -->
+      <class name="Metodo.Metodo.RESTAPITest">
+        <test-method status="PASS" signature="postJira()[pri:0, instance:Metodo.Metodo.RESTAPITest@520a3426]" name="postJira" duration-ms="0" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:Metodo.Metodo.RESTAPITest@520a3426]" name="deleteTwitter" duration-ms="0" started-at="2020-05-03T23:19:47 UYT" finished-at="2020-05-03T23:19:47 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+      </class> <!-- Metodo.Metodo.RESTAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

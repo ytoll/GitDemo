@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Smoke">
+    <classes>
+      <class name="Metodo.Metodo.SeleniumTest"/>
+      <class name="Metodo.Metodo.AppiumTest"/>
+      <class name="Metodo.Metodo.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62" started-at="2020-05-04T00:00:28 UYT" finished-at="2020-05-04T00:00:28 UYT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62" started-at="2020-05-04T00:00:28 UYT" finished-at="2020-05-04T00:00:28 UYT">
+      <class name="Metodo.Metodo.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:Metodo.Metodo.AppiumTest@3901d134]" name="IOSApps" duration-ms="0" started-at="2020-05-04T00:00:28 UYT" finished-at="2020-05-04T00:00:28 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeAppAndroid()[pri:0, instance:Metodo.Metodo.AppiumTest@3901d134]" name="NativeAppAndroid" duration-ms="0" started-at="2020-05-04T00:00:28 UYT" finished-at="2020-05-04T00:00:28 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAppAndroid -->
+      </class> <!-- Metodo.Metodo.AppiumTest -->
+      <class name="Metodo.Metodo.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Metodo.Metodo.SeleniumTest@11a9e7c8]" name="BrowserAutomation" duration-ms="0" started-at="2020-05-04T00:00:28 UYT" finished-at="2020-05-04T00:00:28 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:Metodo.Metodo.SeleniumTest@11a9e7c8]" name="elementsUI" duration-ms="0" started-at="2020-05-04T00:00:28 UYT" finished-at="2020-05-04T00:00:28 UYT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- Metodo.Metodo.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
