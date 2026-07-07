@@ -22,6 +22,12 @@ test.describe('HU-LOGIN-01 - Inicio de sesión', () => {
     await page.getByLabel('Contraseña').fill('ContraseñaIncorrecta1!');
     await page.getByRole('button', { name: 'Iniciar sesión' }).click();
 
+    // MI DUDA PARA S11:
+    // No probé waitForTimeout a propósito: ya lo usé en otro proyecto y no me
+    // funcionó (de hecho todavía no me funciona ahí), así que no le tengo
+    // confianza. Usé toBeVisible() esperando que "espere sola", pero no estoy
+    // 100% segura de que sea la forma correcta de afirmar que el mensaje de
+    // éxito NO aparece, ni de cuánto tiempo espera Playwright antes de fallar.
     await expect(page.getByText('Email o contraseña incorrectos')).toBeVisible();
     await expect(page.getByText('Has iniciado sesión correctamente.')).not.toBeVisible();
   });
